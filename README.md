@@ -1,11 +1,21 @@
-# Sample Snack app
+# Pokemon Search App
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by clicking the **Run** button or use the simulator by clicking **Tap to Play**. When you're done, click **Save** and share the link!
+This is a very basic app I put together for an interview coding task. Since there was only very
+limited time for development, it uses the Expo library and only react components without a data
+store. It could definitely be optimised a lot further, but for now it should function on Android
+and iOS.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Export** your project and use it with [expo-cli](https://docs.expo.io/versions/latest/introduction/installation.html).
+It works by making requests to the [Pokémon TCG API]](https://docs.pokemontcg.io/)
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the **Embed** button.
+The fastest way to get the app running is to install the Expo app from the app store and
+start the app by scanning the QR code at this link:
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io).
+https://snack.expo.io/@tl123/pokemon-search-app
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack-web).
+### Setup
+
+yarn install
+
+### Running the app locally
+
+yarn start
